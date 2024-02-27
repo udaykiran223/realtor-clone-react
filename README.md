@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # realtor-clone-react
 Realtor Clone using React JS and tailwind CSS
 =======
+=======
+>>>>>>> eff1ec1767ce2b50926aaa69d52f531e5ce60982
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,4 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<<<<<<< HEAD
 >>>>>>> eff1ec1 (install reactjs and tailwind css and create the first template)
+=======
+>>>>>>> eff1ec1767ce2b50926aaa69d52f531e5ce60982
