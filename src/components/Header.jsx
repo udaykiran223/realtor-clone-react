@@ -24,7 +24,7 @@ export default function Header() {
           <ul className="flex space-x-10 ">
             <li
               className={`cursor-pointer py-3 text-sm font-semibold text-gray-400 border-b-[3px] border-b-transparent ${
-                pathMathRoute("/") && "text-black border-b-red-500"
+                pathMathRoute("/") & "text-black border-b-red-900"
               }`}
               onClick={() => navigate("/")}
             >
