@@ -12,9 +12,16 @@ code {
     monospace;
 } */
 
-@tailwind base;
+/* giude's */
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+/* my imports */
+/* src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 body {
   background-color: rgb(240, 253, 244);
