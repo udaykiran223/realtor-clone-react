@@ -32,6 +32,7 @@ export default function CreateListing() {
     <main className="max-w-md px-2 mx-auto ">
       <h1 className="text-3xl text-center mt-6 font-bold ">Create a Listing</h1>
       <form>
+        {/* Sell or Rent */}
         <p className="text-lg mt-6 font-semibold ">Sell / Rent</p>
         <div className="flex ">
           <button
@@ -61,7 +62,7 @@ export default function CreateListing() {
             Rent
           </button>
         </div>
-
+        {/* Name */}
         <p className="text-lg mt-6 font-semibold ">Name</p>
         <input
           type="text"
@@ -75,6 +76,7 @@ export default function CreateListing() {
           required
           className="w-full px-4 py-2 text-xl text-gray-700 bg-white border-gray-300 rounded transition duration-150 ease-in-out focus:text-gray-700 focus:bg-white focus:border-slate-600 mb-6  "
         />
+        {/* Beds & Baths */}
         <div className=" flex space-x-6 mb-6 ">
           <div className="">
             <p className="text-lg font-semibold ">Beds</p>
@@ -105,6 +107,7 @@ export default function CreateListing() {
             />
           </div>
         </div>
+        {/* Parking spot */}
         <p className="text-lg mt-6 font-semibold ">Parking spot</p>
 
         <div className="flex ">
@@ -131,6 +134,7 @@ export default function CreateListing() {
             No
           </button>
         </div>
+        {/* Furnished */}
         <p className="text-lg mt-6 font-semibold ">Furnished</p>
 
         <div className="flex ">
@@ -157,6 +161,7 @@ export default function CreateListing() {
             No
           </button>
         </div>
+        {/* Address */}
         <p className="text-lg mt-6 font-semibold ">Address</p>
         <textarea
           type="text"
@@ -168,6 +173,7 @@ export default function CreateListing() {
           required
           className="w-full px-4 py-2 text-xl text-gray-700 bg-white border-gray-300 rounded transition duration-150 ease-in-out focus:text-gray-700 focus:bg-white focus:border-slate-600 mb-6  "
         />
+        {/* Description */}
         <p className="text-lg  font-semibold ">Description</p>
         <textarea
           type="text"
@@ -179,6 +185,7 @@ export default function CreateListing() {
           required
           className="w-full px-4 py-2 text-xl text-gray-700 bg-white border-gray-300 rounded transition duration-150 ease-in-out focus:text-gray-700 focus:bg-white focus:border-slate-600 mb-6  "
         />
+        {/* Offer */}
         <p className="text-lg  font-semibold ">Offer</p>
 
         <div className="flex mb-6 ">
@@ -205,6 +212,7 @@ export default function CreateListing() {
             No
           </button>
         </div>
+        {/* Regular & Discounted Prices */}
         <div className="flex items-center mb-6 ">
           <div className="">
             <p className="text-lg font-semibold ">Regular price</p>
@@ -269,6 +277,7 @@ export default function CreateListing() {
             className="w-full px-3 py-1.5 text-gray-700 bg-white border border-gray-300 rounded transition duration-150 ease-in-out focus:bg-white focus:border-slate-600"
           />
         </div>
+        {/* Create Listing Button */}
         <button
           type="submit"
           className="mb-6 w-full px-7 py-3 bg-blue-600 text-white font-medium text-sm uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
